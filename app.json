@@ -16,12 +16,12 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.lazytrunk",
       "infoPlist": {
-      "LSApplicationQueriesSchemes": [
-         "tez",
-         "phonepe",
-         "paytmmp"
-      ]
-    }
+        "LSApplicationQueriesSchemes": [
+          "tez",
+          "phonepe",
+          "paytmmp"
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -40,6 +40,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45fe5fd6-d9a6-48d4-873a-8375c139cf8e"
+      }
     }
   }
 }
