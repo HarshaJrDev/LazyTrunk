@@ -13,13 +13,22 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lazytrunk",
+      "infoPlist": {
+      "LSApplicationQueriesSchemes": [
+         "tez",
+         "phonepe",
+         "paytmmp"
+      ]
+    }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lazytrunk"
     },
     "web": {
       "bundler": "metro",
